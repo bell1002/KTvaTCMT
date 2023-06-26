@@ -1,0 +1,11 @@
+|THANHGHI4BIT
+Q[0] <= <GND>
+Q[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Clock => inst2.CLK
+Clock => inst1.CLK
+Clock => inst.CLK
+D => inst.DATAIN
+
+

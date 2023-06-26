@@ -1,0 +1,62 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+7
+3344
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ALU1BIT_2CN
+# storage
+db|ALU1BIT_2CN.(0).cnf
+db|ALU1BIT_2CN.(0).cnf
+# case_insensitive
+# source_file
+ALU1BIT_2CN.bdf
+2b348ecc237f1f364e28639c158ccbcb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+MUX2_1_1BIT
+# storage
+db|ALU1BIT_2CN.(1).cnf
+db|ALU1BIT_2CN.(1).cnf
+# case_insensitive
+# source_file
+MUX2_1_1BIT.bdf
+ce41de050fed6d58354fb104ba9148
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MUX2_1_1BIT:inst
+}
+# macro_sequence
+
+# end
+# complete
+

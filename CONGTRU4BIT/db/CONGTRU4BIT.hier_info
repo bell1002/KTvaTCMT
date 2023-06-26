@@ -1,0 +1,76 @@
+|CONGTRU4BIT
+S[0] <= FA:inst.S
+S[1] <= FA:inst1.S
+S[2] <= FA:inst2.S
+S[3] <= FA:inst3.S
+A[0] => FA:inst.A
+A[1] => FA:inst1.A
+A[2] => FA:inst2.A
+A[3] => FA:inst3.A
+B[0] => inst10.IN0
+B[1] => inst9.IN0
+B[2] => inst8.IN0
+B[3] => inst7.IN0
+CONTROL => inst10.IN1
+CONTROL => FA:inst.Cin
+CONTROL => inst9.IN1
+CONTROL => inst8.IN1
+CONTROL => inst7.IN1
+
+
+|CONGTRU4BIT|FA:inst
+Cout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst3.IN0
+A => inst.IN0
+Cin => inst4.IN1
+Cin => inst5.IN1
+Cin => inst6.IN1
+B => inst5.IN0
+B => inst3.IN1
+B => inst.IN1
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CONGTRU4BIT|FA:inst1
+Cout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst3.IN0
+A => inst.IN0
+Cin => inst4.IN1
+Cin => inst5.IN1
+Cin => inst6.IN1
+B => inst5.IN0
+B => inst3.IN1
+B => inst.IN1
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CONGTRU4BIT|FA:inst2
+Cout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst3.IN0
+A => inst.IN0
+Cin => inst4.IN1
+Cin => inst5.IN1
+Cin => inst6.IN1
+B => inst5.IN0
+B => inst3.IN1
+B => inst.IN1
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CONGTRU4BIT|FA:inst3
+Cout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst3.IN0
+A => inst.IN0
+Cin => inst4.IN1
+Cin => inst5.IN1
+Cin => inst6.IN1
+B => inst5.IN0
+B => inst3.IN1
+B => inst.IN1
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+

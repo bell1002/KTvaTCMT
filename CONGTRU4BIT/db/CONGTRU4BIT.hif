@@ -1,0 +1,65 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+7
+3344
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+CONGTRU4BIT
+# storage
+db|CONGTRU4BIT.(0).cnf
+db|CONGTRU4BIT.(0).cnf
+# case_insensitive
+# source_file
+CONGTRU4BIT.bdf
+951c5615f6ca24525f2690497af6fa
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+FA
+# storage
+db|CONGTRU4BIT.(1).cnf
+db|CONGTRU4BIT.(1).cnf
+# case_insensitive
+# source_file
+FA.bdf
+42176ffb702220d0f1658c7caeec6d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FA:inst
+FA:inst1
+FA:inst2
+FA:inst3
+}
+# macro_sequence
+
+# end
+# complete
+

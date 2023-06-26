@@ -1,0 +1,111 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+7
+3344
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ALU4BIT_4CN
+# storage
+db|ALU4BIT_4CN.(0).cnf
+db|ALU4BIT_4CN.(0).cnf
+# case_insensitive
+# source_file
+ALU4BIT_4CN.bdf
+57296cb983e6d87390193fa43d5a6dde
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+ALU1BIT_4CN
+# storage
+db|ALU4BIT_4CN.(1).cnf
+db|ALU4BIT_4CN.(1).cnf
+# case_insensitive
+# source_file
+ALU1BIT_4CN.bdf
+75fba1de6925db4743c5ac14ad83a618
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU1BIT_4CN:inst3
+ALU1BIT_4CN:inst2
+ALU1BIT_4CN:inst1
+ALU1BIT_4CN:inst
+}
+# macro_sequence
+
+# end
+# entity
+FA
+# storage
+db|ALU4BIT_4CN.(2).cnf
+db|ALU4BIT_4CN.(2).cnf
+# case_insensitive
+# source_file
+FA.bdf
+42176ffb702220d0f1658c7caeec6d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU1BIT_4CN:inst3|FA:inst1
+ALU1BIT_4CN:inst2|FA:inst1
+ALU1BIT_4CN:inst1|FA:inst1
+ALU1BIT_4CN:inst|FA:inst1
+}
+# macro_sequence
+
+# end
+# entity
+MUX4_1_1BIT
+# storage
+db|ALU4BIT_4CN.(3).cnf
+db|ALU4BIT_4CN.(3).cnf
+# case_insensitive
+# source_file
+MUX4_1_1BIT.bdf
+eaddb2d232b239457ed98f8d7467df6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU1BIT_4CN:inst3|MUX4_1_1BIT:inst
+ALU1BIT_4CN:inst2|MUX4_1_1BIT:inst
+ALU1BIT_4CN:inst1|MUX4_1_1BIT:inst
+ALU1BIT_4CN:inst|MUX4_1_1BIT:inst
+}
+# macro_sequence
+
+# end
+# complete
+
